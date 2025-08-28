@@ -39,15 +39,21 @@ header > nav {
 
 header > nav > ul {
     margin-bottom: 0px;
-    padding: 3px 0px 3px 40px;
+    padding: 7px 0px 7px 40px;
 }
 
 header > nav > ul > li{
     text-decoration: none;
     display: inline;
-    padding-right: 10px;
-    padding-left: 10px;
-    color: #ebfff0b2;
+    padding:  8px 10px;;
+    color: #cef7d8;
+    border-radius: 8px;
+}
+
+header > nav > ul > li:hover {
+    background-color: #3ba168;
+    color: #012411;
+    transition: all 0.5s ease;
 }
 
 main {
@@ -78,4 +84,35 @@ main > h2 {
 main > p {
     text-indent: 50px;
     text-align: justify;
+    line-height: 1.8;
+}
+
+main > p > .destaque {
+    font-weight: bold;
+    color: #024922;
+}
+
+a {
+    text-decoration: none;
+    color: #012411;
+    font-weight: bold;
+    background-color: #57db90;
+    padding: 2px 3px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+picture {
+    display: block;
+    width: 100%;
+
+    text-align: center;
+}
+picture > img {
+    width: 100%;
+    height: auto;
+    display: block;
+
 }
