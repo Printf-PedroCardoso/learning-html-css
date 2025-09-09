@@ -1,0 +1,118 @@
+@charset "UTF-80";
+@font-face {
+    font-family: 'idroid';
+    src: url('pacote-projeto-d010/fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px auto;
+    padding: 0px;
+    background-color: #f9cb759c;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #29a660, #012411);
+    padding-top: 30px;
+    color: #ebfff0fa;
+    padding-top: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.438);
+}
+
+header > h1 {
+    text-align: center;
+    margin-top: 0px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.769);
+}
+
+header > p {
+    text-align: center;
+    max-width: 500px;
+    margin: 0px auto;
+    }
+
+header > nav {
+    background-color: #013a1c;
+}
+
+header > nav > ul {
+    margin-bottom: 0px;
+    padding: 7px 0px 7px 40px;
+}
+
+header > nav > ul > li{
+    text-decoration: none;
+    display: inline;
+    padding:  8px 10px;;
+    color: #cef7d8;
+    border-radius: 8px;
+}
+
+header > nav > ul > li:hover {
+    background-color: #3ba168;
+    color: #012411;
+    transition: all 0.5s ease;
+}
+
+main {
+    max-width: 1040px;
+    margin: 0px auto;
+    padding: 0px 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.438);
+}
+
+main > h1 {
+    margin-top: 0px;
+    padding-top: 20px;
+    font-family: idroid;
+    font-weight: lighter;
+    font-size: 1.9em;
+    color: #012411;
+}
+
+main > h2 {
+    font-family: idroid;
+    font-weight: lighter;
+    color: #012411;
+    background-image: linear-gradient(to right, #57db90, #00000000);
+    padding-left: 10px;
+}
+
+main > p {
+    text-indent: 50px;
+    text-align: justify;
+    line-height: 1.8;
+}
+
+main > p > .destaque {
+    font-weight: bold;
+    color: #024922;
+}
+
+a {
+    text-decoration: none;
+    color: #012411;
+    font-weight: bold;
+    background-color: #57db90;
+    padding: 2px 3px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+picture {
+    display: block;
+    width: 100%;
+
+    text-align: center;
+}
+picture > img {
+    width: 100%;
+    height: auto;
+    display: block;
+
+}
