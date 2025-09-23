@@ -116,3 +116,19 @@ picture > img {
     display: block;
 
 }
+
+.video {
+    display: block;
+    background-color: #013a1c;
+    padding: 10px 0px;
+
+}
+
+iframe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    width: auto;
+    max-width: auto;
+}
