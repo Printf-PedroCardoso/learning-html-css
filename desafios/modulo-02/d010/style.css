@@ -31,6 +31,7 @@ header > p {
     text-align: center;
     max-width: 500px;
     margin: 0px auto;
+    text-indent: 0;
     }
 
 header > nav {
@@ -81,13 +82,13 @@ main > h2 {
     padding-left: 10px;
 }
 
-main > p {
+p {
     text-indent: 50px;
     text-align: justify;
     line-height: 1.8;
 }
 
-main > p > .destaque {
+.destaque {
     font-weight: bold;
     color: #024922;
 }
@@ -98,11 +99,23 @@ a {
     font-weight: bold;
     background-color: #57db90;
     padding: 2px 3px;
+    
 }
+
+.extra > p > a {
+    background-color: #00000000;
+}
+
 
 a:hover {
     text-decoration: underline;
 }
+
+img {
+    margin: 0 auto;
+    display: flex;
+}
+
 
 picture {
     display: block;
@@ -129,6 +142,47 @@ iframe {
     justify-content: center;
     align-items: center;
     margin: 20px auto;
-    width: auto;
-    max-width: auto;
+    width: 90%;
+    height: 40vw;
+    min-height: 300px;
+    border: none;
+}
+
+.extra {
+    background-color: #57db90da;
+    border-radius: 10px;
+}
+
+.extra > p {
+    padding: 0 16px;
+    margin: 0;
+} 
+
+.extra > h1 {
+    background-color: #013a1cd0;
+    color: white;
+    border-radius: 10px 10px 0px 0px; 
+    font-size: 1.4em;
+    padding: 5px;
+    display: block;
+}
+
+.extra > ul {
+    list-style-type: "\2714\00a0\00a0";
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
+footer {
+    background-color: #013a1c;
+    color: white;
+
+    font-size: 0.8em;
+
+}
+
+footer > p {
+    text-align: center;
+    margin: 0;
 }
